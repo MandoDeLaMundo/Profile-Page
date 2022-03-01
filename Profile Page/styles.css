@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+    list-style-type: none;
+}
+
+.nav {
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    justify-content: space-between;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-title {
+    margin: 0px 20px;
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: #17A2B8;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+.main {
+    margin: 0 auto;
+    display: flex;
+    padding: 0% 5%;
+}
+
+.left {
+    flex: 2;
+    margin-right: 5%;
+}
+
+.right {
+    flex: 1;
+}
+
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-card {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+    font-size: 1.2 rem;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    height: 125px;
+    background-color: #17a2b8;
+    margin-bottom: 70px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h1,
+.card-body h3,
+.card-body p {
+    margin: 20px 0px;
+}
+
+.avatar-m {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.icon-s {
+    height: 20px;
+}
+
+a {
+    color: #3a81e6;
+}
+
+.avatar-c, .accept, .close {
+    border-radius: 50%;
+    margin-top: 2px;
+    margin-left: 2px;
+    height: 20px;
+}
+
+.education, .requests, .connections, .right p {
+    border: 3px solid #cccccc;
+}
+
+.requests {
+    margin-bottom: 20px;
+}
+
+.education h1, .requests h1, .connections h2 {
+    background-color: black;
+    color: white;
+    height: 40px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.two, .plus {
+    background-color: #cccccc;
+    color: black;
+    padding: 3px;
+    border-radius: 50%;
+    justify-content: center;
+}
